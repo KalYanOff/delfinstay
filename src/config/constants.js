@@ -38,8 +38,25 @@ export const COLORS = {
 // ====== RESPONSIVE BREAKPOINTS ======
 export const BREAKPOINTS = {
   sm: '640px',
-  md: '768px', 
+  md: '768px',
   lg: '1024px',
   xl: '1280px',
   '2xl': '1536px'
+};
+
+// ====== ROOM PRICES ======
+export const PRICES = {
+  priceS2: "2500₽",      // Стандарт для двоих
+  priceS3: "3000₽",      // Стандарт для троих
+  priceE2: "1000₽",      // Эконом для двоих
+  priceE3: "1500₽",      // Эконом для троих
+  priceE4: "2000₽"       // Эконом для четверых
+};
+
+export const OLD_PRICES = {
+  oldPriceS2: "3000₽",   // Стандарт для двоих
+  oldPriceS3: "3500₽",   // Стандарт для троих
+  oldPriceE2: "1500₽",   // Эконом для двоих
+  oldPriceE3: "2000₽",   // Эконом для троих
+  oldPriceE4: "2500₽"    // Эконом для четверых
 };
