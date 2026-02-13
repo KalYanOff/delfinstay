@@ -18,7 +18,7 @@ export function Footer() {
         
         {/* Copyright */}
         <p className="text-sm text-gray-600">
-          © Гостевой дом «Дельфин». Все права защищены.
+          © «Дельфин». Все права защищены.
         </p>
 
         {/* Contact links */}

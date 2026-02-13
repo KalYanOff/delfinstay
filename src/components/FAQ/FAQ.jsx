@@ -50,20 +50,18 @@ function FAQItem({ question, children }) {
 export function FAQ() {
   // Pricing table data
   const pricingPeriods = [
-    '01.05–31.05',
-    '01.06–30.06', 
-    '01.07–14.07',
-    '15.07–31.08',
-    '01.09–14.09',
-    '15.09–30.09'
+    'МАЙ',
+    'ИЮНЬ', 
+    'ИЮЛЬ – 14 СЕНТЯБРЯ',
+    '15 СЕНТЯБРЯ - ОКТЯБРЬ',
   ];
 
   const pricingData = [
-    { name: 'Стандарт 2-местный', prices: [2500, 3000, 3500, 4000, 4000, 3500] },
-    { name: 'Стандарт 3-местный', prices: [3000, 3500, 4000, 4500, 4500, 4000] },
-    { name: 'Эконом 2-местный', prices: [1000, 1500, 2000, 2000, 2000, 1500] },
-    { name: 'Эконом 3-местный', prices: [1500, 2200, 2500, 3000, 2500, 2000] },
-    { name: 'Эконом 4-местный', prices: [2000, 2800, 3200, 3600, 3200, 2800] }
+    { name: 'Стандарт 2-местный', prices: [3000, 4000, 5000, 3000] },
+    { name: 'Стандарт 3-местный', prices: [4000, 5000, 6000, 4000] },
+    { name: 'Эконом 2-местный', prices: [1200, 1500, 2200, 1200] },
+    { name: 'Эконом 3-местный', prices: [1800, 2500, 3300, 1800] },
+    { name: 'Эконом 4-местный', prices: [2400, 3000, 4000, 2400] }
   ];
 
   // Full rules text (moved from constants for better organization)
@@ -287,11 +285,11 @@ cookies/логи - в объёме и сроки, необходимом для 
       <div className={`${CONTAINER} max-w-[1000px] pb-12`}>
         
         {/* Pricing FAQ */}
-        <FAQItem question="Актуальные цены на 2025">
+        <FAQItem question="Актуальные цены на 2026">
           <div className="overflow-x-auto bg-gray-50 rounded-xl p-4">
             {/* Desktop table */}
             <table className="hidden sm:table w-full border-collapse text-center text-sm bg-white rounded-lg overflow-hidden shadow-sm">
-              <caption className="sr-only">Цены на проживание 2025</caption>
+              <caption className="sr-only">Цены на проживание 2026</caption>
               
               {/* Table header */}
               <thead>
@@ -366,7 +364,7 @@ cookies/логи - в объёме и сроки, необходимом для 
 
         <FAQItem question="Есть ли услуга трансфера?">
           <div className="prose prose-sm max-w-none text-gray-800">
-            <pre className="whitespace-pre-wrap">Мы поможем организовать трансфер от железнодорожного вокзала Туапсе или Горячий Ключ за дополнительную плату. Также можно добраться на рейсовом автобусе — остановка в 200 метрах от гостевого дома.</pre>
+            <pre className="whitespace-pre-wrap">Мы поможем организовать трансфер от железнодорожного вокзала Туапсе или Горячий Ключ за дополнительную плату. Также можно добраться на рейсовом автобусе — остановка в 200 метрах от Нас.</pre>
           </div>
         </FAQItem>
                 <FAQItem question="Можно ли готовить самостоятельно?">
@@ -386,12 +384,12 @@ cookies/логи - в объёме и сроки, необходимом для 
         </FAQItem>
         <FAQItem question="Можно ли привезти с собой домашних животных?">
           <div className="prose prose-sm max-w-none text-gray-800">
-            <pre className="whitespace-pre-wrap">Просим заранее уточнять возможность размещения с животными по телефону +7(918)192-99-31</pre>
+            <pre className="whitespace-pre-wrap">К сожалению, мы не принимаем гостей с домашними животными. Это связано с заботой о комфорте всех наших гостей, среди которых могут быть люди с аллергией на шерсть животных.</pre>
           </div>
         </FAQItem>
         <FAQItem question="Когда мы работаем?">
           <div className="prose prose-sm max-w-none text-gray-800">
-            <pre className="whitespace-pre-wrap">Гостевой дом «Дельфин» работает для вас круглосуточно, без выходных с мая по октябрь.</pre>
+            <pre className="whitespace-pre-wrap">«Дельфин» работает для вас круглосуточно, без выходных, с мая по октябрь.</pre>
           </div>
         </FAQItem>
       </div>

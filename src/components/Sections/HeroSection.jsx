@@ -22,7 +22,7 @@ export function HeroSection() {
             
             {/* Main headline */}
             <h1 className="text-2xl sm:text-3xl md:text-4xl 2xl:text-5xl font-semibold leading-tight text-[#0073ff]">
-              Гостевой дом «Дельфин» — доступный семейный отдых всего в минуте от теплого моря!
+              «Дельфин» — доступный семейный отдых всего в минуте от теплого моря!
             </h1>
             
             {/* Subheadline */}

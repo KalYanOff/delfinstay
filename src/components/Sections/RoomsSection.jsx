@@ -46,9 +46,6 @@ export function RoomsSection({ onOpenStandalone }) {
         <h3 id="rooms-standart" className="text-2xl sm:text-3xl 2xl:text-4xl font-semibold text-center mb-4 text-[#0073ff]">
           Стандарт
         </h3>
-        <p className="text-[#7a7a7a] text-center max-w-3xl mx-auto mb-6">
-          Уютные комнаты с современными удобствами — идеальный выбор для комфортного отдыха у моря.
-        </p>
         
         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
           {standardRooms.map((room) => (
@@ -69,9 +66,6 @@ export function RoomsSection({ onOpenStandalone }) {
         <h3 id="rooms-econom" className="text-2xl sm:text-3xl 2xl:text-4xl font-semibold text-center mt-10 mb-4 text-[#0073ff]">
           Эконом
         </h3>
-        <p className="text-[#7a7a7a] text-center max-w-3xl mx-auto mb-6">
-          Практичные уютные комнаты для 2–4 человек. Комфортный отдых по доступной цене!
-        </p>
         
         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
           {economyRooms.map((room) => (
